@@ -301,7 +301,7 @@ plt.plot(x[idx], y_est_median, color='C3', lw=3, zorder=3)
 plt.fill_between(x[idx], y_est_minus_2_sigma, y_est_plus_2_sigma, **fill_kwargs)
 
 # plot a selection of best fit lines
-plt.plot(x[idx], y_est[::800].T[idx], alpha=0.5, color='C7')
+#plt.plot(x[idx], y_est[::800].T[idx], alpha=0.5, color='C7')
 
 plt.xlabel('x')
 plt.ylabel('y')

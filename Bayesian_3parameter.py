@@ -181,7 +181,7 @@ fill_kwargs = {
 }
 
 # grab un-centered y-values from the sampler
-y_est = traces_ols.posterior.y.data.reshape(-1, 20)
+y_est = traces_ols.posterior.y.data.reshape(-1, len(true_dist))
 
 # plot original data
 plt.figure(2, figsize=(10, 6))
